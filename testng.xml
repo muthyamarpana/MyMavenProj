@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testScenarios.CountNoOfLinks"/>
+      <class name="testScenarios.MouseHoverEvents"/>
+      <class name="testScenarios.LetsCodIt"/>
+      <class name="testScenarios.DatePicker"/>
+      <class name="testScenarios.DynDataHand"/>
+      <class name="testScenarios.SwitchingWind"/>
+      <class name="testScenarios.AutoSuggHandling"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

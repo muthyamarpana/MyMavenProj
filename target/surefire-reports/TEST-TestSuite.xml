@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="76.25" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\SeleniumTraining_New\Sel@6AM\workspace\MyMavenProj\target\test-classes;C:\SeleniumTraining_New\Sel@6AM\workspace\MyMavenProj\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.43.0\selenium-api-4.43.0.jar;C:\Users\HP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.43.0\selenium-json-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.43.0\selenium-manager-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.43.0\selenium-http-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.43.0\selenium-remote-driver-4.43.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.60.1\opentelemetry-api-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.60.1\opentelemetry-context-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-common\1.60.1\opentelemetry-common-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.60.1\opentelemetry-exporter-logging-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.60.1\opentelemetry-sdk-common-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.60.1\opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.60.1\opentelemetry-sdk-extension-autoconfigure-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.60.1\opentelemetry-sdk-trace-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.60.1\opentelemetry-sdk-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.60.1\opentelemetry-sdk-metrics-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.60.1\opentelemetry-sdk-logs-1.60.1.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.43.0\selenium-os-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.43.0\selenium-support-4.43.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\HP\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire13450751238205054733\surefirebooter-20260420172357181_3.jar C:\Users\HP\AppData\Local\Temp\surefire13450751238205054733 2026-04-20T17-23-56_820-jvmRun1 surefire-20260420172357181_1tmp surefire_0-20260420172357181_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\SeleniumTraining_New\Sel@6AM\workspace\MyMavenProj\target\test-classes;C:\SeleniumTraining_New\Sel@6AM\workspace\MyMavenProj\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.43.0\selenium-api-4.43.0.jar;C:\Users\HP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.43.0\selenium-json-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.43.0\selenium-manager-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.43.0\selenium-http-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.43.0\selenium-remote-driver-4.43.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.60.1\opentelemetry-api-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.60.1\opentelemetry-context-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-common\1.60.1\opentelemetry-common-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.60.1\opentelemetry-exporter-logging-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.60.1\opentelemetry-sdk-common-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.60.1\opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.60.1\opentelemetry-sdk-extension-autoconfigure-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.60.1\opentelemetry-sdk-trace-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.60.1\opentelemetry-sdk-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.60.1\opentelemetry-sdk-metrics-1.60.1.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.60.1\opentelemetry-sdk-logs-1.60.1.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.43.0\selenium-os-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.43.0\selenium-support-4.43.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\HP\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\SeleniumTraining_New\Sel@6AM\workspace\MyMavenProj"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire13450751238205054733\surefirebooter-20260420172357181_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="HP"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\SeleniumTraining_New\Sel@6AM\workspace\MyMavenProj"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\HP\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\HP\Downloads\terraform_1.7.4_windows_amd64;C:\Program Files\Git\cmd;C:\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\PuTTY\;C:\minikube;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\k8s;C:\Users\HP\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="CountLinks" classname="testScenarios.CountNoOfLinks" time="20.208">
+    <system-out><![CDATA[Total number of links=386
+
+Rediffmail
+Money
+Bill Payments
+Business Email
+rediffGURUS
+rediff-TV
+Sign in
+Create Account
+IPL 2026
+Fixtures & Results
+Points Table
+Teams
+MOBILE RECHARGE
+NEWS
+BUSINESS
+MOVIES
+IPL 2026
+AI-WEBSITE BUILDER
+SPORTS
+GET AHEAD
+
+Virat-Anushka visit Vrindavan Ashram
+LIVE! Iran war: 39,000+ PNG users give up LPG connections
+No plans for further peace talks with US, says Iran
+A War With No Exit Strategy, No Victory To Declare
+No longer CM, but will monitor Bihar's development: Nitish
+India not 'Vishwaguru' anymore: BJP veteran M M Joshi
+TCS case: 'He said women not wearing burqas are raped'
+'If There's Nothing in the Pitch...'
+'A Single Teacher's Faith Can Alter A Child's Life'
+Must See! Rare Pictures Of Asha Bhosle
+See More >
+
+Rediff-TV
+4 pm News Flash – April 20, 2026
+LIVE
+Northwest, central India to witness heatwave conditions for next 4-5 days: IMD
+Iran war: 39,000+ PNG users give up LPG connections
+Sensex, Nifty erase early gains to settle flat
+Modi went to Israel because Trump said so: Rahul
+Accused said assaults due to not wearing burqa: TCS victim
+Would pull my sari, touch my thigh: TCS employee
+Iran says it has no plans yet to attend talks with US
+We have not backed down one iota from demands: Iran
+Issue not women's reservation but Modi preservation: Cong
+Over 3,300 people have died in Iran in this war
+Adarsh Gourav joins Ridley Scott's 'Alien: Earth' season two
+SC junks PIL seeking to declare Netaji 'national son'
+See More >
+MORE NEWS
+
+Vidhi Will Keep You Guessing
+
+Divya Dutta, Like You've Never Heard Her Before
+
+IPL 2026: 'Time for Hardik to Deliver'
+Atlee, Priya Celebrate Daughter's Birth
+Rinku Roars Back To Form
+Mrunal Thakur On Being Compared To Madhubala...
+3 Asanas To Reduce Acidity Naturally
+See More >
+
+NEWS
+
+'This War Can Easily Go On For Months Longer'
+
+'AIADMK Is Trapped By BJP'
+
+Has Baazigar Modi Fired His Best Shot?
+'Bullying, excessive demands': Iran wary of US talks
+Tears, prayers mid-air as Fly91 flight diverted to Bengaluru
+'Not true': Iran rejects second round of talks in Pak
+US releases video of Marines boarding Iranian vessel
+US seizes Iranian ship trying to breach Hormuz blockade
+See More >
+NEWS
+
+The Challenges Confronting Samrat Chowdhury
+
+Mamata Banerjee Can't Underestimate BJP
+
+'God Does Not Make People Like Mohsina Kidwai Now'
+High-profile Iranian woman held in US for arms trafficking
+21 dead, 29 injured as bus rolls into gorge in J-K's Udhampur
+Drones fired at warship, US troops retreat, claims Iran
+Asim Munir becoming 'huge favourite' of...: Cong slams govt
+Guwahati Court Rejects NBW Against Pawan Khera
+See More >
+LATEST NEWS
+
+Atlee, Priya Celebrate Daughter's Birth
+
+SRH Look to Extend Home Momentum Against Inconsistent DC
+
+Ben Shelton eyes French Open push after landmark win on clay
+Netanyahu's testimony in graft trial put off due to security reasons
+Man Held For Posting Defamatory Content Against Actress
+Must See! Rare Pictures Of Asha Bhosle
+Aditi Ashok Ends LA Championship In T-51 Position
+Former Mumbai player Kiran Powar named head coach of Assam Ranji team
+See More >
+
+'Jinnah Thought He'd Rule Pakistan From Malabar Hill'
+Is Haq Propaganda? Director Suparn Varma Answers
+Shobhaa De: Sex Is A Superglue
+Zoya's Hit Life: From Salman To Emraan
+See More >
+REDIFF GURUS
+
+will I eligible to sit in josaa in CSAB counselling...
+
+My son doesn't respect me at all. At first I thought...
+
+Thanks for your response. I had consulted a...
+
+Hello Mr. RamalingamI am 50, retiring in 10 years....
+i have started fast to loose belly fat and hence followed 16/8...
+Hi,I have recently applied for the NIOS On-Demand Exam for a...
+Hi Sir i have sold my parental property which as gifted to me...
+What is my SC category rank in 84.2 percentile in jee mains...
+Our grandson 3 years old is great at rapidly creating numbers...
+My husband is having an affair with his junior. She is a...
+my age is 38 i have a 5 year old boy and planning for 2nd baby...
+I’ve often heard elders say that drinking water while...
+See More >
+VIDEOS
+Ameesha Patel Stuns in a Dazzling Look in Mumbai
+Jhalmuri Vendor Opens Up About Serving PM Modi
+Rasha Thadani's Hair Game Steals the Spotlight
+'Bhai Humein Apna Jhalmuri Khilao': PM Pauses For Snack Break In Bengal
+PM Modi, South Korean President Lee Jae myung plant a sapling at Hyderabad house
+Kritika Kamra Stuns in Glamorous Avatar
+Sunny Leone Steps Out in Style with Husband Daniel Weber in Mumbai
+Sreeleela Turns Heads at the Airport with Her Glamorous Style
+See More >
+PHOTOS
+
+Atlee, Priya Celebrate Daughter's Birth
+
+Varun Nervous Dancing Before Salman
+
+Style Tips For The True-Blue Taurus
+
+Asus Zenbook S14 Comes To India
+
+Where Are Celebs Holidaying This Summer?
+
+Vidhi Will Keep You Guessing
+
+Manchester United beat Chelsea, Wolves on brink of relegation
+
+'If Ashaji Cooked For You, It Meant She Liked You'
+
+WATCH: When Pulkit Landed A Punch, For Real
+
+Manushi Chhillar's Maldives Diaries
+See More >
+REDIFF-TV
+Odisha forest department buys Mahindra Thars from disaster fund, finds CAG
+6:05 min
+HDFC Bank moderates FY27 growth outlook, targets 12% Y-o-Y
+5:40 min
+Vaibhav Sooryavanshi Races To Be MVP
+10:23 min
+Why mixed-use developments are the future of Indian real estate
+5:53 min
+See More >
+CRICKET
+
+IPL 2026: What Rishabh Pant said after LSG's loss
+
+Connolly Credits Team Culture for Punjab's Unbeaten Run
+
+Prince Yadav Defends LSG Bowlers After PBKS Defeat
+Gujarat Titans Confident Despite Middle Order Woes
+Why Rashid Khan Declined Offer To Represent India!
+RR Batting Coach Rathour Backs Riyan Parag To Rediscover Form
+How Dressing Room Contest Fuels Punjab's Batting Blitz
+Mohammad Rizwan Dismisses Retirement Talk Amid T20 Struggles
+See More >
+CRICKET & SPORTS
+
+Atiqa Mir Makes History With P2 Finish At WSK
+
+Al-Nassr Crush Al-Wasl as Ronaldo Hits 969th Career Goal
+
+Arteta Stays Defiant as Arsenal Title Fight 'Starts Again'
+Doping Concerns Mount as India Placed in Top Risk Tier
+Haaland's Winner Sets Up Title-Deciding Week for Man City
+Wrestler Sujeet Kalkal On His Winning Formula
+Bombay HC Asks Centre To Decide On Padma Award For Wrestler Jadhav
+Fils Caps Comeback From Injury With Barcelona Crown
+See More >
+MOVIES
+
+Where Are Celebs Holidaying This Summer?
+
+'If Ashaji Cooked For You, It Meant She Liked You'
+
+WATCH: When Pulkit Landed A Punch, For Real
+Patralekhaa Hits Back At Body Shamers
+Badass Entertainment Coming Up On OTT!
+Watch! Rediff Reader Sings Asha Bhosle Song
+Oru Durooha Sahacharyathil Review
+A Night Out With Kalyani, Dulquer, Nag
+See More >
+GET AHEAD
+
+Style Tips For The True-Blue Taurus
+
+Tired of Paneer? 10 Veg Sources Of Protein
+
+Shreya, Shanaya Show How To Revamp Your Mum's Sari
+INSPIRING! Visually Impaired Girl Scores 95% In CBSE
+'Withdraw PPF And Invest In Stocks?'
+'They Are Not Meant For Cosmetic Weight Loss'
+'Husband Deleting Chats From Female Colleague'
+Recipes: Zelda's Hearty Cool-Down Salads
+See More >
+BUSINESS
+
+VinFast VF 7 MPV comes with free buyback, free charging
+
+Renault gets 'FutuREady', to launch 7 new cars by 2030
+
+Gulf War: Stocks That Could Buck The Trend And Shine
+Wage Hike Fails To Solve Worker Woes
+Industrial credit growth may clock 9-13% in H1CY26
+Mixed-use projects: The new frontier for Indian real estate developers
+Air India plans to complete B787-8 retrofit by Q1 2028
+HDFC Bank moderates FY27 growth outlook, targets 12% Y-o-Y
+See More >
+
+Top 10 Pritam Soundtracks
+
+8 Most Fascinating Barbie Dolls Ever
+
+Who Wanted Pujara Out Of The Team?
+8 Facts: Vegan Food Builds Muscle Just Like Meat
+Cuffing To Love Bombing: How Gen Z Dates
+Bollywood's 10 Incredible Coaches
+Fend Off Ageing: 7 Secrets To Keep Your Skin Young
+The Future of Movie Nights at Home
+MARKET NEWS
+
+India, Korea Discuss Trade Pact Revamp
+
+SAEL Starts 600-MW Solar Plant in Andhra Pradesh
+
+India Office Market: Demand Dips, Supply Down - Vestian
+
+Groww Profit Jumps 2x to Rs 686 Cr in March Quarter
+See More >
+Powerful earthquake hits Japan, Tsunami alert...
+China surpasses US as India's largest trading...
+Clean Energy Jobs To Triple By 2030
+Govt releases FAQs on women's quota bill after LS...
+Stock markets today: Sensex, Nifty50 close flat...
+
+Govt may hike FDI limit to 100% in pension sector; bill likely in Monsoon Session
+
+Jain Recipes: Kele Appe, Pav Bhaji, Mango Sevaiya Custard
+
+'What? There are Jews in Iran?!'
+
+The 25-Year SIP Strategy To Retire At 50
+
+7 Foods To Boost Your Daily Iodine Intake
+
+The Quiz You Absolutely Must Take
+
+10 Reasons Why Akshaye Khanna Is So Appealing
+
+Bad Day? Let Your Outfit's Colour Change Your Mood
+
+What Are The Best Yoga Asanas For Thyroid?
+
+Why My Last Minute Concert Plan Was Totally Worth It
+
+'Indian Weddings Have Deep Meaning'
+THE TIMELESS 100
+
+Dhurandhar The Revenge Has Record-Breaking Opening
+
+'I Would Like To Do My Gareeb Films'
+
+The Dhurandhar 2 Review
+
+Pak may develop missiles capable of hitting US: Gabbard
+
+Dhurandhar: Storytelling In Age Of Restless Viewers
+
+Why Did Israel Kill Ali Larijani?
+
+Chiraiya Review
+
+Tighee Review
+
+'Israel won't strike Iran': Trump after Tehran hits Qatar LNG hub
+
+New Team, New Life: Arjun Tendulkar 2.0 Begins
+See More >
+Rediffmail for Work
+Book a domain
+Rediffmail
+Money
+Videos
+The Timeless 100
+Rediff.com
+Advertise with us
+Disclaimer
+Privacy Policy
+Sitemap
+Feedback
+About us
+Terms of use
+Grievances
+Visible links=314
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="dragAndDrop" classname="testScenarios.MouseHoverEvents" time="9.188"/>
+  <testcase name="handlingAllWebElements" classname="testScenarios.LetsCodIt" time="8.818">
+    <system-out><![CDATA[BMW is selected
+Benz is selected...
+Honda is selected
+]]></system-out>
+  </testcase>
+  <testcase name="selectDate" classname="testScenarios.DatePicker" time="19.111"/>
+  <testcase name="dynData" classname="testScenarios.DynDataHand" time="3.686">
+    <system-out><![CDATA[What is 2 + 8
+2	8
+Calculation is correct
+What is 9 + 2
+9	2
+Calculation is correct
+What is 1 + 9
+1	9
+Calculation is correct
+]]></system-out>
+  </testcase>
+  <testcase name="switchWin" classname="testScenarios.SwitchingWind" time="4.975">
+    <system-out><![CDATA[Total window ids=2
+50BAF38F14DF8A22F99A7BBCD5F5912C
+05225F2C5EAD9536D202E52DD1B3178E
+Window1 title=W3Schools Tryit Editor
+Window2 title=W3Schools Online Web Tutorials
+]]></system-out>
+  </testcase>
+  <testcase name="googleAutoSugg" classname="testScenarios.AutoSuggHandling" time="9.303"/>
+</testsuite>

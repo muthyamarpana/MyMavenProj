@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T17:23:58 IST" name="Suite" finished-at="2026-04-20T17:25:13 IST" duration-ms="75374">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T17:23:58 IST" name="Test" finished-at="2026-04-20T17:25:13 IST" duration-ms="75374">
+      <class name="testScenarios.SwitchingWind">
+        <test-method signature="switchWin()[pri:0, instance:testScenarios.SwitchingWind@6973b51b]" started-at="2026-04-20T17:24:59 IST" name="switchWin" finished-at="2026-04-20T17:25:04 IST" duration-ms="4975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWin -->
+      </class> <!-- testScenarios.SwitchingWind -->
+      <class name="testScenarios.DatePicker">
+        <test-method signature="selectDate()[pri:0, instance:testScenarios.DatePicker@72057ecf]" started-at="2026-04-20T17:24:36 IST" name="selectDate" finished-at="2026-04-20T17:24:55 IST" duration-ms="19111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+      </class> <!-- testScenarios.DatePicker -->
+      <class name="testScenarios.DynDataHand">
+        <test-method signature="dynData()[pri:0, instance:testScenarios.DynDataHand@1afd44cb]" started-at="2026-04-20T17:24:55 IST" name="dynData" finished-at="2026-04-20T17:24:59 IST" duration-ms="3686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynData -->
+      </class> <!-- testScenarios.DynDataHand -->
+      <class name="testScenarios.LetsCodIt">
+        <test-method signature="handlingAllWebElements()[pri:0, instance:testScenarios.LetsCodIt@192d43ce]" started-at="2026-04-20T17:24:27 IST" name="handlingAllWebElements" finished-at="2026-04-20T17:24:36 IST" duration-ms="8819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlingAllWebElements -->
+      </class> <!-- testScenarios.LetsCodIt -->
+      <class name="testScenarios.CountNoOfLinks">
+        <test-method signature="CountLinks()[pri:0, instance:testScenarios.CountNoOfLinks@3835c46]" started-at="2026-04-20T17:23:58 IST" name="CountLinks" finished-at="2026-04-20T17:24:18 IST" duration-ms="20197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountLinks -->
+      </class> <!-- testScenarios.CountNoOfLinks -->
+      <class name="testScenarios.MouseHoverEvents">
+        <test-method signature="dragAndDrop()[pri:0, instance:testScenarios.MouseHoverEvents@5f058f00]" started-at="2026-04-20T17:24:18 IST" name="dragAndDrop" finished-at="2026-04-20T17:24:27 IST" duration-ms="9187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- testScenarios.MouseHoverEvents -->
+      <class name="testScenarios.AutoSuggHandling">
+        <test-method signature="googleAutoSugg()[pri:0, instance:testScenarios.AutoSuggHandling@1ab3a8c8]" started-at="2026-04-20T17:25:04 IST" name="googleAutoSugg" finished-at="2026-04-20T17:25:13 IST" duration-ms="9303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAutoSugg -->
+      </class> <!-- testScenarios.AutoSuggHandling -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
